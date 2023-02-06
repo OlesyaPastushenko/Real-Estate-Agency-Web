@@ -1,0 +1,520 @@
+.count {
+    display: flex;
+    width: 83px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.ItemWrap {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 105px;
+    .itemH1 {
+        font-size: 51px;
+        width: 1115px;
+    }
+
+}
+
+.imgItem {
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+.button1 {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    padding: 10px;
+    border-radius: 50%;
+
+    background-color: #7db122;
+
+  }
+  .heart{
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+  }
+  .infoItem {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100vw;
+  }
+.detailes {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    width: 300px;
+    text-align: left;
+}
+
+.desc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    width: 300px;
+    text-align: left;
+}
+.innerSliderBig {
+    margin-top: 40px;
+    position: relative;
+    width:735px;
+    height:363px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px 0 rgba(71, 100, 195, 0.1);
+
+
+    .sliderLineBig {
+
+        position: absolute;
+        display: flex;
+        flex-shrink: 0;
+        transition: 0.5s;
+        transform: translate();
+        img {
+           width: 735px;
+           object-fit: cover; 
+        }
+    }
+}
+.thambNailWrap {
+width: 734px;
+height: 116px;
+display: flex;
+align-items: center;
+
+.but_next_slider_big {
+    margin-left: 15px;
+    width: 48px;
+    height: 48px;
+    background-color: #dadaee;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    padding-left: 3px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    .arrow{
+        padding-left: 5px;
+        width: 25px;
+        height: 25px;
+        background-image: url('./left-arrow-next-svgrepo-com.svg');
+    }
+}
+.but_next_slider_big:hover {
+    background-color: #1c3988;
+}
+.but_prev_slider_big {
+    margin-right: 15px;
+    width: 48px;
+    height: 48px;
+    background-color: #dadaee;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    padding-right: 3px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    .arrow{
+        width: 25px;
+        height: 25px;
+        rotate: 180deg;
+        background-image: url('./left-arrow-next-svgrepo-com.svg');
+    }   
+    }
+.but_prev_slider_big:hover {
+    background-color: #1c3988;
+}    
+.thambNail {
+    display: flex;
+    width: 608px;
+    overflow: hidden;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    .thambnailLine{
+        position: relative;
+        display: flex;
+        flex-shrink: 0;
+        transition: 0.5s;
+        transform: translate();
+        img {
+            width: 192px;
+            height: 84px;
+            object-fit: cover; 
+            margin-right: 18px;
+            border-radius: 4px;
+            box-shadow: 0 4px 20px 0 rgba(71, 100, 195, 0.1);
+            flex-shrink: 0;
+    
+        }
+    }
+}
+}
+.wrapIcons {
+    width: 735px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 46px;
+    .typeIcon {
+        display: flex;
+        align-content: center;
+        height: 48px;
+        .typePic {
+            width: 48px;
+            height: 48px;
+            background-image: url("./company\ \(2\)\ 1.svg");
+        }
+        .typeTxt {
+            display: flex;
+            align-items: center; 
+            margin-left: 15px;
+            font-size: 20px;
+            font-family: "Merriweather";
+        }
+    }
+    .demIcon {
+        display: flex;
+        .demPic{
+            width: 48px;
+            height: 48px;
+            background-image: url('./dimensions\ 1.svg'); 
+        }
+        .demTxt {
+            display: flex;
+            align-items: center; 
+            margin-left: 15px;
+            font-size: 20px;
+            font-family: "Merriweather";
+         }
+    }
+    .roomIcon {
+        display: flex;
+        .roomPic {
+            width: 48px;
+            height: 48px;
+            background-image: url('./dimensions\ 1.svg'); 
+        }
+        .roomTxt {
+            display: flex;
+            align-items: center; 
+            margin-left: 15px;
+            font-size: 20px;
+            font-family: "Merriweather";
+         }
+    }
+    .locIcon {
+        display: flex;
+        .locPic {
+            width: 48px;
+            height: 48px;
+            background-image: url('./pin\ 1.svg'); 
+        }
+        .locTxt {
+           display: flex;
+            flex-direction: column;
+           justify-content: center; 
+            margin-left: 15px;
+            p {
+               font-size: 20px;
+               font-family: "Merriweather";
+           }
+         }
+    }
+
+}
+.mortgage {
+  position: relative;
+  margin-top: 48px;
+  width: 735px;
+  height: 98px;
+  border-radius: 4px;
+  background-color: #f3f3fa;
+  .button_mort {
+        display: flex;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        justify-content: center;
+        align-items: center;
+        height: 48px;
+        width: 190px;
+        border-radius: 4px;
+        color: white;
+        font-family: "Open Sans";
+        background-color: #1c3988;
+  }
+}
+.mortTxt {
+    position: absolute;
+    left: 25px;
+    top:16px;
+    p:first-child {
+       font-size: 21px;
+    }
+    p:last-child {
+        font-family: 'Merriweather';
+        font-size: 25px;
+    }
+}
+.description {
+  margin-top: 46px;
+  width: 610px;
+  font-family: 'Open Sans';
+  font-size: 17px;
+  text-align: left;
+  color: #141b2d;
+  div {
+    margin-bottom: 15px;
+  }
+}
+.basic {
+  margin-top: 46px;
+  width: 610px;
+  text-align: left;
+  color: #141b2d;
+  .basicH {
+    font-family: 'Merriweather';
+    font-size: 25px;
+} 
+}
+.pBasic{
+    font-family: 'Open Sans';
+    font-size: 17px; 
+    margin-top: 10px;
+}
+.pBasic1{
+    font-family: 'Open Sans';
+    font-size: 17px; 
+    margin-top: 20px;
+}
+.wrapRaws {
+    width: 1115px;
+    display: flex;
+}
+.leftCol {
+    display: flex;
+    flex-direction: column;
+}
+.rightCol {
+    display: flex;
+    flex-direction: column;
+}
+.contactUs {
+    width: 352px;
+  height: 949px;
+  flex-grow: 0;
+  margin: 40px 161px 40px 31px;
+  padding: 24px 4px 37px 24px;
+  border-radius: 4px;
+  background-color: #f3f3fa;
+}
+.contTxt {
+    height: 48px;
+    font-family: 'Merriweather';
+    font-size: 26.6px;
+    text-align: left;
+    color: #091638;
+}
+.label {
+  height: 24px;
+  flex-grow: 0;
+  margin: 0 106px 4px 0;
+  font-family: 'Open Sans';
+  font-size: 17px;
+  text-align: left;
+  color: #091638;
+}
+.contInput {
+    outline-style: none;
+    border-color: transparent;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    width: 304px;
+    height: 56px;
+    flex-grow: 0;
+    margin: 4px 0 24px;
+    padding: 16px 16px 16px 16px;
+    box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.contInput:focus {
+    border: solid 1px #4764c3;
+}
+
+.contInputText {
+    outline-style: none;
+    border-color: transparent;
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    width: 304px;
+    height: 304px;
+    margin: 4px 0 24px;
+    padding: 16px 16px 16px 16px;
+    box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #ddd;
+    background-color: #fff;
+    resize: none;
+    border-radius: 5px;
+  }
+  .contInputText:focus {
+    border: solid 1px #4764c3;
+}
+  .checkBox {
+    display: flex;
+input {
+  width: 24px;
+  height: 24px;
+  margin: 1px 11px 29px 0;
+  padding: 6px 4px;
+  border-radius: 4px;
+  background-color: #1c3988 ;
+}  
+.checkTxt {
+  width: 269px;
+  height: 54px;
+  font-family: 'Open Sans';
+  font-size: 17px;
+  line-height: 1.59;
+  letter-spacing: normal;
+  text-align: left;
+  color: #091638;
+  border-radius: 5px;
+  a {
+    text-decoration: underline;
+    color: #1c3988;
+  }
+  
+}
+}
+.checkBut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    border-radius: 5px;
+    font-size: 17px;
+    width: 304px;
+    height: 48px;
+    margin: 30px 20px 0 0;
+    border: solid 2px #1c3988;
+    color: #1c3988;
+}
+.checkBut:hover {
+    background-color: #1c3988 ;
+    color: white;
+}
+.manager {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 352px;
+  height: 323px;
+  flex-grow: 0;
+  margin: 0px 40px 40px 31px;
+  border-radius: 4px;
+  background-color: #f3f3fa;
+  .manPhoto {
+    width: 126px;
+    margin-top: 24px;
+    height: 126px;
+    border-radius: 50%;
+    background-image: url('../Home/OurTeam/agente-inmobiliario\ \(1\).jpg');
+    background-size: contain;
+  }
+}
+.manH3 {
+    width: 351px;
+    height: 29px;
+    flex-grow: 0;
+    margin: 24px 0 0px;
+    font-family: 'Merriweather';
+    font-size: 21.2px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #091638;
+}
+.manTxt {
+    width: 352px;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    text-align: center;
+    color: #141b2d;
+}
+.manView {
+    width: 185px;
+    height: 25px;
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    text-align: center;
+    color: #1c3988;
+    text-decoration: underline;
+}
+.gInfo {
+    width: 352px;
+    height: 542px;
+    margin: 0px 40px 40px 31px;
+    padding: 24px 25px 24px 24px;
+    border-radius: 4px;
+    background-color: #f3f3fa;
+}
+.gInfoQ {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 17px;
+}
+.gInfoA {
+    font-family: 'Open Sans';
+    font-size: 17px;
+}
+.gInfoTxt {
+    font-family: 'Merriweather';
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+.gInfoBl {
+    margin-bottom: 24px;
+}
+.boxWrap {
+    margin-top: 40px;
+    width: 735px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    button {
+        width: 233px;
+        height: 233px;
+        border: none;
+        border-radius: 5px;
+        .boxImg {
+        width: 233px;
+        height: 233px;
+        object-fit: cover;
+        margin-bottom: 13px;
+        border-radius: 5px;     
+    }
+    
+    }
+}

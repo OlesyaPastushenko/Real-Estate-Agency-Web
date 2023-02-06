@@ -1,0 +1,47 @@
+.wrapContactos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 120px;
+}
+.block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 398px;
+    background-color: #f3f3fa;
+}
+.plane {
+    width: 225px;
+    height: 216px;
+    background-image: url('./plane.png');
+    background-size: cover;
+}
+.wrapTextContactos {
+    h1 {
+        font-size: 33px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 96px;
+}
+.pContactos {
+    font-size: 21px;
+    font-family: 'Open Sans';
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 191px;
+  background-color: #1c3988;
+  color: white;
+  h1 {
+  font-size: 33px;}
+}

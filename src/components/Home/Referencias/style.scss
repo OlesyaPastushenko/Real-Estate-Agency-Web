@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.wrapReferencias {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 120px;
+    @media only screen and (max-width: 650px) {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.textReferencias {
+    width: 1110px;
+    font-family: 'Merriweather';
+    font-size: 52px;
+    font-weight: bold;
+    text-align: left;
+    color: #091638;
+    @media only screen and (max-width: 650px) {
+        width: 90%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .refH1 {
+        font-family: 'Merriweather';
+        font-size: 52px;
+        font-weight: bold;
+        text-align: left;
+        color: #091638; 
+        @media only screen and (max-width: 650px) {
+            width: 90%;
+            height: auto;
+        }
+    }
+    .refP {
+        width: 611px;
+        height: 69px;
+        flex-grow: 0;
+        font-family: 'Open Sans';
+        font-size: 21.3px;
+        font-weight: normal;
+        text-align: left;
+        color: #091638;
+        margin-top: 15px;
+        @media only screen and (max-width: 650px) {
+            width: 90%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+}
+.wrapForCards {
+    display: flex;
+    margin-top: 45px;
+    position: relative;
+    transition: 1s;
+}
+
+.refCard {
+    position: relative;
+    width: 540px;
+    height: 298px;
+    background-color: #f3f3fa;
+    flex-shrink: 0;
+    margin-left: 32px;
+    p {
+        width: 444px;
+        font-family: 'Open Sans';
+        font-size: 17px;
+        font-weight: normal;
+        line-height: 1.5;
+        text-align: left;
+        color: #091638;
+        margin-left: 73px;
+        margin-top: 42px;
+    }
+    
+}
+.comas {
+font-size: 70px;
+font-family: 'Merriweather';
+position: absolute;
+top: 30px;
+left: 30px;
+color: #8c8ca6;
+rotate: 180deg;
+letter-spacing: -5px;
+}
+.refName {
+    font-family: 'Merriweather';
+    font-size: 21px;
+    position: absolute;
+    bottom: 50px;
+    left: 24px;
+}
+.sub {
+   position: absolute;
+   font-family: 'Open Sans';
+   font-size: 17px;
+   left: 24px;
+   bottom: 24px;
+}
+.refCard:first-child {
+    margin-left: 0px; 
+}
+.refSlider {
+    overflow: hidden;
+    width: 1112px;
+}
+.wrapForDots {
+    width: 1112px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.sliderDot {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #dadaee;
+}
+.refWrap {
+    width: 1497px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
