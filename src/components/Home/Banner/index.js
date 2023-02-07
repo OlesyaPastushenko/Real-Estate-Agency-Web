@@ -3,7 +3,7 @@ import { SelectSmall } from '../SelectSmall';
 
 const Banner = () => {
   return (
-      <div className="background">
+      <section className="sectionWhiteCol">
         <div className="text_photo">
           <div className="text_banner">
             <h1>Vida moderna para todos</h1>
@@ -16,7 +16,7 @@ const Banner = () => {
           <div className="pic_banner"></div>
           <SelectSmall />
         </div>
-      </div>
+      </section>
   );
 };
 

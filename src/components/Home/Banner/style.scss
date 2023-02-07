@@ -6,38 +6,46 @@
     box-sizing: border-box;
   }
 
-.background {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  height: 750px;
-  padding-top: 120px;
-  @media only screen and (max-width: 650px) {
-    padding-top: 0px;
+.sectionWhiteCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+    width: 100%;
     height: auto;
-  }
+    background-color: white;
+    @media only screen and (max-width: 650px) {
+        display: flex;
+        padding-top: 20px;
+        height: auto;
+    }
+
 }
 .text_photo{
   position: relative;
   display: flex;
-  @media only screen and (max-width: 650px) {
+  margin-top: 120px;
+  height: 544px;
+  width: 1140px;
+  flex-shrink: 1,2;
+  @media only screen and (max-width: 900px) {
     width: 100%;
     height: auto;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
   }
 
 }
 .pic_banner {
-  width: 595px;
+  width: 50%;
   height: 544px;
   background-image: url('./header\ picture@2x.png');
   background-size: cover;
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 900px) {
     width: 100%;
-    height: 400px;
   }
 
 }
@@ -56,22 +64,18 @@ p {
   display: flex;
   flex-direction: column;
   padding-top: 90px;
-  width: 595px;
+  width: 50%;
   height: 544px;
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 900px) {
     width: 100%;
     height: auto;
     padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 30px;
-    padding-right: 30px; 
+    padding-bottom: 90px; 
   }
   p {
     display: flex;
     margin-top: 8px;
     align-items: center;
-    width: 544px;
-    height: 104px;
     font-family: 'Open Sans';
     font-size: 21px;
     @media only screen and (max-width: 650px) {
@@ -80,7 +84,6 @@ p {
       height: auto;
     }
   }
-
 }
 .wrap {
   display: flex;

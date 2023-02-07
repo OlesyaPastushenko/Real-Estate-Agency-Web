@@ -1,6 +1,5 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, { useRef, useState} from "react";
 import './style.scss'
-import '../../fonts/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4taVIGxA (1).woff2'
 import logo from './Logo.jpg'
 import {Link} from 'react-router-dom'
 
@@ -13,7 +12,6 @@ const Navigation = () => {
         event = document.body.addEventListener("click", (e) => {
             e.target !== navbar.current && e.target !== burger.current && closeMenu()
         })
-        console.log('xd')
         setShowMenu("0px")
     }
     const closeMenu = () => {
@@ -22,7 +20,7 @@ const Navigation = () => {
     }
     
     return (
-        <section className="sectionWhite">
+        <section className="sectionWhiteRow">
             <div className="containerNav">
                     <Link to='/' className = "a">
                     <img src={logo} className="logo"/>
