@@ -2,7 +2,7 @@ import React from "react";
 import {ContextCatalogue, ContextBasket, ContextFilter, ContextResult} from "../../store/context";
 import {Link, useLocation} from 'react-router-dom';
 import { useEffect, useState, useContext } from "react";
-import LowerHeader from "../Home/LowerHeader";
+import LowerHeader from "../Navigation/index";
 import { SelectBig } from "./SelectBig";
 import './style.scss';
 import { SmallSlider } from "./SmallSlider/index";

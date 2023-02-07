@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import Banner from "components/Home/Banner";
-import LowerHeader from "components/Home/LowerHeader";
+import LowerHeader from "../Navigation/index";
 import './style.scss'
 import { TopOffer } from "./TopOffers";
 import {About} from "./About";

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import LowerHeader from "../Home/LowerHeader";
+import LowerHeader from "../Navigation";
 import { useContext } from "react";
 import {Link , useLocation} from 'react-router-dom'
 import {ContextCatalogue, ContextuserBasket} from "../../store/context";

@@ -3,7 +3,7 @@ import './style.scss'
 
 const Contactos = () => {
     return (
-    <div className='wrapContactos'> 
+    <div className='wrapContactos' id="contacts"> 
     <div className='block1'>
     <div className='plane'>
     </div>

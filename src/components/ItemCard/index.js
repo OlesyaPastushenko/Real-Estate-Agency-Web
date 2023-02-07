@@ -1,11 +1,10 @@
 import React from "react";
 import { useEffect, useState, useContext } from "react";
 import {useParams} from 'react-router-dom'
-import LowerHeader from "../Home/LowerHeader/index";
+import LowerHeader from "../Navigation/index";
 import './style.scss'
 import { Map } from "./GoogleMap/index";
 import {Contactos} from "../Home/Contactos/index"
-import basket from '../Home/LowerHeader/c3b2dff7986e701847f213423683f00a.png'
 import {ContextCatalogue, ContextuserBasket} from "../../store/context";
 import { FormContactUs } from "./FormContactUs";
 const ItemCard = () => {
