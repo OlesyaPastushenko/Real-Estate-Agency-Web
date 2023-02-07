@@ -47,7 +47,6 @@ console.log(result)
 let {pathname} = useLocation()
     return (
         <div className="wrapCat">
-            <LowerHeader></LowerHeader>
             <div className="wraph1cat">Buscar una oferta</div>
             <div className='wrapPCat'>Elige entre las ofertas más ventajosas</div>
             <div className="wrapSelectCat">

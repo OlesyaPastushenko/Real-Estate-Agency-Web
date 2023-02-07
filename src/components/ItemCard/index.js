@@ -46,7 +46,6 @@ const ItemCard = () => {
 
     return (
         <div>
-            <LowerHeader></LowerHeader>
          <div className="ItemWrap">
              <h1 className="itemH1">
                 {item?.type + " " +item?.action + " en " + item?.poblacion}

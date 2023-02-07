@@ -17,7 +17,6 @@ const Home = () => {
     console.log(windowScreenWidth)
     return (
          <div>
-              <LowerHeader/>
               <Banner/>
               {windowScreenWidth > 650 ? <TopOffer/> : <TopOfferMobile/>}
               <TopOfferMobile></TopOfferMobile>

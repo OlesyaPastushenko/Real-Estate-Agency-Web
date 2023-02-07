@@ -5,9 +5,11 @@ import Basket from "./components/Basket";
 import Catalogue from "./components/Catalogue";
 import ErrorPage from "./components/Error/ErrorPage";
 import ItemCard from "./components/ItemCard";
+import Navigation from "./components/Navigation";
 const App = () => {
     return (
          <div>
+              <Navigation/>
               <Routes>
                   <Route path='/' element={<Home/>}/>
                   <Route path='/basket' element={<Basket/>}/>
